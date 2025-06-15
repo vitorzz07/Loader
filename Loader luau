@@ -11,15 +11,18 @@ until game.Players.LocalPlayer and game.Players.LocalPlayer.Character
 
 print("Player and Character Loaded!")
 
+-- PlaceId atual
 local placeId = game.PlaceId
 print("Current PlaceId:", placeId)
 
+-- Lista dos jogos suportados
 local games = {
-    [70876832253163] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Sapphire-Bond.lua.txt', -- Dead Rails
-    [126884695634066] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/SapphireHub-Grow-A-Garden.lua.txt', -- Grow A Garden
-    [2753915549] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Sapphire-Fruit-Finder.lua.txt', -- Blox Fruits Sea 1
-    [4442272183] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Sapphire-Fruit-Finder.lua.txt', -- Blox Fruits Sea 2
-    [7449423635] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Sapphire-Fruit-Finder.lua.txt', -- Blox Fruits Sea 3
+    [70876832253163] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/AutoBond.lua', -- Dead Rails
+    [126884695634066] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Grow-A-Garden.lua', -- Grow A Garden
+    [2753915549] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/FruitFinder.lua', -- Blox Fruits Sea 1
+    [4442272183] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/FruitFinder.lua', -- Blox Fruits Sea 2
+    [7449423635] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/FruitFinder.lua', -- Blox Fruits Sea 3
+    [16732694052] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Bladeball.lua', -- Blade Ball
 }
 
 if games[placeId] then
