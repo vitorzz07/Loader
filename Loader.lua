@@ -22,7 +22,7 @@ local games = {
     [2753915549] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/FruitFinder.lua', -- Blox Fruits Sea 1
     [4442272183] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/FruitFinder.lua', -- Blox Fruits Sea 2
     [7449423635] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/FruitFinder.lua', -- Blox Fruits Sea 3
-    [16732694052] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Bladeball.lua', -- Blade Ball
+    [16044264830] = 'https://raw.githubusercontent.com/vitorzz07/Sapphire.lua/refs/heads/main/Bladeball.lua', -- Blade Ball
 }
 
 if games[placeId] then
